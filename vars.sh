@@ -23,6 +23,6 @@ http://osci-obs.vm.mirantis.net:82/centos-fuel-${branch}/centos/noarch/
 #http://fuel-mirror.srt.mirantis.net/fwm/${branch2}/centos/os/x86_64/Packages/
 #http://fuel-mirror.srt.mirantis.net/fwm/${branch2}/ubuntu/pool/main/
 
-cachefile="cache.txt"
+cachefile="${SCRIPTDIRNAME}/cache.txt"
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
